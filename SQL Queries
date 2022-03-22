@@ -1,0 +1,15 @@
+// Create MySQL table
+
+CREATE TABLE `db1`.`student` (
+  `id` INT NOT NULL,
+  `name` VARCHAR(50) NOT NULL,
+  `department` VARCHAR(25) NOT NULL,
+  PRIMARY KEY (`id`));
+
+----------------------------------------------------------------------------------------
+
+// Inserting values
+
+INSERT INTO `db1`.`student` (`id`, `name`, `department`) VALUES ('1', 'Mohammed', 'SE');
+INSERT INTO `db1`.`student` (`id`, `name`, `department`) VALUES ('2', 'Ali', 'AI');
+INSERT INTO `db1`.`student` (`id`, `name`, `department`) VALUES ('3', 'Ahmed', 'CS');
